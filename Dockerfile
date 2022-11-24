@@ -1,4 +1,4 @@
-FROM 10.9.43.231:5000/centos:7
+FROM docker.io/linlung985/centos:7
 RUN yum install -y java-11-openjdk-devel
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 WORKDIR /root/project
