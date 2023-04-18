@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/images/centos:7
+FROM docker.io/linlung985/centos:7
 RUN yum install -y java-11-openjdk-devel
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 WORKDIR /root/project
